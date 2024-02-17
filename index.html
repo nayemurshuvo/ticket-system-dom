@@ -38,6 +38,7 @@
               "cstm-gray-op40": "#03071266",
               "cstm-white-op80": "#FFFFFFCD",
               "cstm-white-op70": "#FFFFFFB2",
+              "cstm-bg-op10": "#1DD1001A",
             },
           },
         },
@@ -51,7 +52,37 @@
   <body>
     <header>
       <!-- Navbar -->
-      <h1 class="text-2xl">Hello World</h1>
+      <nav class="raleway-font">
+        <div class="container mx-auto px-8 lg:px-32 mt-4 lg:mt-12">
+          <div class="navbar">
+            <div class="navbar-start">
+              <div>
+                <h1 class="text-cstm-black text-2xl lg:text-4xl font-extrabold">
+                  Bangla Star
+                </h1>
+              </div>
+            </div>
+            <div class="navbar-center">
+              <div
+                class="space-x-16 text-lg text-cstm-gray-op70 font-medium hidden lg:flex"
+              >
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Destination</a>
+                <a href="#">Search</a>
+              </div>
+            </div>
+            <div class="navbar-end">
+              <button
+                class="bg-cstm-bg-op10 px-4 lg:px-8 py-2 lg:py-4 rounded-xl text-lg lg:text-xl font-bold text-cstm-green flex gap-3 items-center"
+              >
+                Bus
+                <img src="./images/bus-icon.png" alt="" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
     <main></main>
     <!-- Footer -->
